@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">有空</string>
+    <string name="no_news">没有内容，请重试</string>
+    <string name="load_fail">加载失败，请重试</string>
+    <string name="image_load_error">请检查网络是否连通！</string>
+    <string name="load_more_fail">加载更多失败，请重试</string>
+    <string name="refresh">刷新</string>
+    <string name="change_daynight">主题</string>
+    <string name="keep_article">收藏</string>
+    <string name="delete_all">删除所有</string>
+    <string name="main_menu_changetheme_day">夜间模式</string>
+    <string name="main_menu_changetheme_night">日间模式</string>
+
+    <string name="transition_latest_with_latest_details">transition_one</string>
+
+    <string name="date_today">今日热闻</string>
+    <string name="test_list_date">3月20日 星期一</string>
+    <string name="test_title">让你失望了，并没有加载出数据...</string>
+    <string name="test_source">图片来源</string>
+    <string name="share">分享</string>
+    <string name="share_from">来自「有空」的分享：</string>
+    <string name="keep_label">我的收藏</string>
+
+    <string name="save_error">保存失败</string>
+    <string name="save_success">保存成功</string>
+    <string name="saveing">正在保存</string>
+    <string name="image_save">保存已保存</string>
+    <string name="save_all_image">正在后台下载所有图片！</string>
+    <string name="shareing">正在生成分享图片</string>
+    <string name="no_share_content">没有要分享的内容，请稍微再试</string>
+    <string name="file_save_error">文件存储错误！</string>
+    <string name="image_number">%1$d/%2$d</string>
+    <string name="about_introduce">「有空」- 在纷繁复杂的世界里，有空静下心来阅读是一种奢侈,「有空」,带给您最简单的快乐。\n\n「有空」是一个第三方知乎日报Android客户端，旨在提供简单，纯粹的阅读体验。\n\n开源是必须的，软件采用RxJava + Retrofit + OkHttp + Butterknife 框架实现，喜欢的朋友请Star，欢迎一起学习讨论。</string>
+    <string name="about_menu_action_share">分享</string>
+    <string name="about_app_name_with_introduce">有空 - 享受阅读的乐趣</string>
+    <string name="about_developers">关于我</string>
+    <string name="about_open_source_lis">感谢开源</string>
+    <string name="about_project_address_title">项目地址</string>
+    <string name="about_introduce_and_help">介绍与帮助</string>
+    <string name="about_project_address">"https://github.com/import1024/youkong"</string>
+    <string name="about_open_source_libraries_list">com.squareup.retrofit2:retrofit:2.0.0-beta4\ncom.squareup.okhttp3:okhttp:3.2.0\nio.reactivex:rxandroid:1.1.0\nio.reactivex:rxjava:1.1.0\ncom.facebook.stetho:stetho:1.3.1\ncom.jakewharton:butterknife:7.0.1\ncom.github.bumptech.glide:glide:3.7.0\ncom.yalantis:phoenix:1.2.3\norg.jsoup:jsoup:1.8.3</string>
+    <string name="about_function">实现的功能</string>
+    <string name="about_function_list">* 日报列表显示\n* 日报详情显示\n* 错误界面处理\n* 上拉加载更多\n* 已读内容标记\n* 已读内容缓存\n* 离线下载\n 滑动返回\n* 分享功能\n* 夜间模式</string>
+    <string name="about_function_list2">这个 app 也没干别的什么，大概实现了三个功能：\n\n 1. 确立了日报详情的收藏功能。\n\n 2. 把内容日报列表和详情写入缓存。\n\n 3. 第三个就是\"三个图片\" — 图片浏览、图片保存和图片批量下载。\n\n如果说还有一点成绩就是，所有界面一律滑动返回和列表头部点击回到顶部，这个对用户体验有很大的关系\n\n还有就是夜间模式也是很大的一个功能。\n\n但这些都是次要的，主要就三个功能，很惭愧，就做了一点微小的工作，欢迎一起交流。</string>
+    <string name="about">关于</string>
+    <string name="menu_about">关于</string>
+    <string name="about_statement">声明</string>
+    <string name="about_statements">有空所有数据来之公开的Api,版权归原作者所有，如有侵权，烦请告知，本人将删除https://github.com/import1024/youkong上所有项目信息．本项目静止用于商业目的。</string>
+    <string name="menu_theme_change">主题切换</string>
+    <string name="menu_my_keep">我的收藏</string>
+    <string name="about_version">v 1.0</string>
+    <string name="popwindow_loopup">查看图片</string>
+    <string name="popwindow_save">保存图片</string>
+    <string name="popwindow_save_all">全部保存</string>
+    <string name="keep_no_save">你还没有任何收藏！</string>
+    <string name="save_article">文章已收藏！</string>
+    <string name="remove_article">已从收藏中移除！</string>
+    <string name="remove_all_article">已清空所有文章！</string>
+    <string name="load_image_error">图片加载错误！</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="warning_delete_article_title">删除文章</string>
+    <string name="warning_delete_article_content">你确定要删除这篇文章吗？</string>
+    <string name="warning_delete_all_title">删除全部</string>
+    <string name="warning_delete_all_content">你确定要删除全部收藏吗？</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

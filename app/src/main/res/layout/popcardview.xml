@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="5dp"
+              android:background="#bb4e4747"
+              android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/item_longclicked_viewimage"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#e9f1ecec"
+        android:textSize="16sp"
+        android:text="@string/popwindow_loopup"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/item_longclicked_saveImage"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#e9f1ecec"
+        android:textSize="16sp"
+        android:text="@string/popwindow_save"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:id="@+id/item_longclicked_viewall"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#e9f1ecec"
+        android:textSize="16sp"
+        android:text="@string/popwindow_save_all"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        />
+
+</LinearLayout>

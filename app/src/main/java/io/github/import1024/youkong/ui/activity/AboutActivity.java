@@ -1,0 +1,93 @@
+package io.github.import1024.youkong.ui.activity;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.os.Bundle;
+import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.v4.widget.NestedScrollView;
+import android.support.v7.app.ActionBar;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
+import android.widget.TextView;
+
+import com.umeng.analytics.MobclickAgent;
+
+import butterknife.Bind;
+import io.github.import1024.youkong.R;
+import io.github.import1024.youkong.common.base.BaseActivity;
+
+/**
+ * introduce application
+ * Created by import1024 on 16/3/23.
+ */
+public class AboutActivity extends BaseActivity {
+    @Bind(R.id.toolbar)
+    Toolbar mToolbar;
+    @Bind(R.id.collapsing_toolbar)
+    CollapsingToolbarLayout mCollapsingToolbar;
+    @Bind(R.id.tv_version)
+    TextView mTvVersion;
+    @Bind(R.id.nested_view)
+    NestedScrollView scrollView;
+
+    @Override
+    protected int getLayoutId() {
+        return R.layout.activity_about;
+    }
+
+    @Override
+    protected void afterCreate(Bundle savedInstanceState) {
+        init();
+    }
+
+    private void init() {
+        setSupportActionBar(mToolbar);
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+        mSwipeBackLayout.setEdgeDp(120);
+        mToolbar.setOnClickListener(l -> scrollView.smoothScrollTo(0,0));
+        mCollapsingToolbar.setTitle(getString(R.string.about));
+        mTvVersion.setText(getVersion());
+    }
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, AboutActivity.class);
+        context.startActivity(intent);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    private String getVersion() {
+        try {
+            PackageInfo pi = getPackageManager().getPackageInfo(getPackageName(), 0);
+            return pi.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+            return getString(R.string.about_version);
+        }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        MobclickAgent.onResume(this);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        MobclickAgent.onPause(this);
+    }
+}

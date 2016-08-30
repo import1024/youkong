@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/image_wrapper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <io.github.import1024.youkong.ui.widget.PinchImageView
+    android:id="@+id/image_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    </io.github.import1024.youkong.ui.widget.PinchImageView>
+    <com.mingle.widget.LoadingView
+        android:id="@+id/load_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        >
+    </com.mingle.widget.LoadingView>
+</FrameLayout>

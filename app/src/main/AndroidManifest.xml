@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="io.github.import1024.youkong">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".common.base.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/DayTheme">
+        <activity android:name="io.github.import1024.youkong.ui.activity.NewsListActivity"
+
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="io.github.import1024.youkong.ui.activity.NewsDetailActivity"/>
+        <activity android:name="io.github.import1024.youkong.ui.activity.AboutActivity"/>
+
+        <!-- umeng -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="56f38a8fe0f55a42fa001ca2"/>
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="Baidu"/>
+
+        <activity android:name="io.github.import1024.youkong.ui.activity.KeepActivity"
+            android:label="@string/keep_label"
+            >
+        </activity>
+        <activity android:name=".ui.activity.ImageViewActivity"
+            android:theme="@style/AppTheme.Full.NoTitle"
+                  android:label=""
+            >
+        </activity>
+        <activity android:name="io.github.import1024.youkong.ui.activity.KeepDetailActivity"
+            >
+        </activity>
+    </application>
+
+</manifest>
