@@ -100,4 +100,5 @@ Retrofit — Getting Started and Create an Android Client
 ## 五、声明
 应用中展示的所有内容均搜集自互联网，若内容有侵权请联系作者进行删除处理。本应用仅用作分享与学习。
 
+apk 下载地址： [youkong.pak](https://github.com/import1024/youkong/raw/master/apk/youkong.apk)
 
