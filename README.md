@@ -29,10 +29,11 @@
 
 ## 二、软件截图
 
+
 <table>
 <tr>
 <th>首页列表界面</th>
-<th>夜间模式</th>
+<th>  夜间模式  </th>
 </tr>
 <tr>
 <td><img src="./screenshot/home.png" title="首页列表"></td>
@@ -40,30 +41,39 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<th>内容详情界面</th>
+<th>  图片处理  </th>
+</tr>
+<tr>
+<td><img src="./screenshot/detail.png" title="日报详情"></td>
+<td><img src="./screenshot/picture.png" title="图片处理"></td>
+</tr>
+</table>
 
-* 内容详情界面
+<table>
+<tr>
+<th>  图片浏览  </th>
+<th>  滑动返回  </th>
+</tr>
+<tr>
+<td><img src="./screenshot/picture_view.png" title="图片浏览"></td>
+<td><img src="./screenshot/swipe_back.png" title="滑动返回"></td>
+</tr>
+</table>
 
-![日报详情](./screenshot/detail.png)
+<table>
+<tr>
+<th>  滑动删除  </th>
+<th>  关于界面  </th>
+</tr>
+<tr>
+<td><img src="./screenshot/delete.png" title="滑动删除"></td>
+<td><img src="./screenshot/about.png" title="关于界面"></td>
+</tr>
+</table>
 
-* 图片处理
-
-![图片处理](./screenshot/picture.png)
-
-* 图片浏览
-
-![图片浏览](./screenshot/picture_view.png)
-
-* 滑动返回
-
-![滑动返回](./screenshot/swipe_back.png)
-
-* 滑动删除
-
-![滑动删除](./screenshot/delete.png)
-
-* 关于界面
-
-![关于界面](./screenshot/about.png)
 
 
 ## 三、依赖库
