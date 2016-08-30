@@ -33,7 +33,7 @@
 <table>
 <tr>
 <th>首页列表界面</th>
-<th>  夜间模式  </th>
+<th>夜间模式界面</th>
 </tr>
 <tr>
 <td><img src="./screenshot/home.png" title="首页列表"></td>
@@ -44,7 +44,7 @@
 <table>
 <tr>
 <th>内容详情界面</th>
-<th>  图片处理  </th>
+<th>图片处理界面</th>
 </tr>
 <tr>
 <td><img src="./screenshot/detail.png" title="日报详情"></td>
@@ -54,8 +54,8 @@
 
 <table>
 <tr>
-<th>  图片浏览  </th>
-<th>  滑动返回  </th>
+<th>图片浏览界面</th>
+<th>滑动返回界面</th>
 </tr>
 <tr>
 <td><img src="./screenshot/picture_view.png" title="图片浏览"></td>
@@ -65,8 +65,8 @@
 
 <table>
 <tr>
-<th>  滑动删除  </th>
-<th>  关于界面  </th>
+<th>滑动删除界面</th>
+<th>关于界面界面</th>
 </tr>
 <tr>
 <td><img src="./screenshot/delete.png" title="滑动删除"></td>
