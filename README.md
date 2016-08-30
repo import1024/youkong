@@ -35,8 +35,8 @@
 <th>夜间模式</th>
 </tr>
 <tr>
-<td>![首页列表](./screenshot/home.png)</td>
-<td>![夜间模式](./screenshot/night_mode.png)</td>
+<td><img src="./screenshot/home.png" title="首页列表"></td>
+<td><img src="./screenshot/night_mode.png" title="夜间模式"></td>
 </tr>
 </table>
 
